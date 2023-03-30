@@ -52,10 +52,10 @@ httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 ```
 ## OUTPUT
-###Server Output:
+### Server Output:
 ![w2](https://user-images.githubusercontent.com/117974950/228801020-08db6e2f-c2b4-4f8a-bfab-f43034494f67.png)
 
-###Client Output:
+### Client Output:
 ![clientop](https://user-images.githubusercontent.com/117974950/228801142-145a37c7-ce98-41ea-963b-8c0eb62b5ad4.png)
 
 ## RESULT
