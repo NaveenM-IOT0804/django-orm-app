@@ -18,22 +18,25 @@ Enter the code for admin.py and model.py
 ## PROGRAM
 ```python
 from django.db import models
-
 from django.contrib import admin
-
 class Student (models.Model):
-     referencenumber=models.CharField(max_length=20,help_text="reference number")
-     name=models.CharField(max_length=100)
-     age=models.IntegerField()
-     email=models.EmailField()
+    referencenumber=models.CharField(primary_key=True,max_length=20,help_text="reference number")
+    name=models.CharField(max_length=100)
+    age=models.IntegerField()
+    email=models.EmailField()
+    gender=models.CharField(max_length=100)
 
 class StudentAdmin(admin.ModelAdmin):
-    list_display=('referencenumber','name','age','email')
+    list_display=('referencenumber','name','age','email','gender')
 ```
 
 ## OUTPUT
-![Screenshot 2023-04-01 083939](https://user-images.githubusercontent.com/117974950/229989545-d0fb05e7-67df-4092-8db6-d75bdb735eee.png)
-![Screenshot 2023-04-01 085806](https://user-images.githubusercontent.com/117974950/229989567-443ac71b-36c6-4168-8e28-9e4d968014ab.png)
+### Server Output:
+![image](https://user-images.githubusercontent.com/117974950/230269934-26b5ace9-a9b4-4ffb-b30f-3445dad8b405.png)
+### Client Output:
+![Screenshot 2023-04-06 092332](https://user-images.githubusercontent.com/117974950/230270012-169f0d52-9b67-45e8-be0b-c0e8e8d475b9.png)
+![Screenshot 2023-04-06 093408](https://user-images.githubusercontent.com/117974950/230270037-ea125b5b-4d60-47a2-8b89-25512afeb351.png)
+
 
 ## RESULT
 The program is executed succesfully
