@@ -9,12 +9,9 @@ Include your ER diagram here
 
 ## DESIGN STEPS
 
-### STEP 1:
-Clone the problem from github
-### STEP 2:
-creat a new app
-### STEP 3:
-Enter the code for admin.py and model.py
+### STEP 1: Clone the problem from github
+### STEP 2: creat a new app
+### STEP 3: Enter the code for admin.py and model.py
 ## PROGRAM
 ```python
 from django.db import models
