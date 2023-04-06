@@ -5,7 +5,8 @@ To develop a Django application to store and retrieve data from a database using
 
 ## Entity Relationship Diagram
 
-Include your ER diagram here
+![image](https://user-images.githubusercontent.com/117974950/230272027-21de5932-271d-4d59-b2ad-12a8c5f0e1ae.png)
+
 
 ## DESIGN STEPS
 
@@ -29,6 +30,7 @@ class StudentAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 ### Server Output:
+![Screenshot 2023-04-06 095145](https://user-images.githubusercontent.com/117974950/230272095-a628b0b2-a852-43ae-bca7-80351983164a.png)
 ![image](https://user-images.githubusercontent.com/117974950/230269934-26b5ace9-a9b4-4ffb-b30f-3445dad8b405.png)
 ### Client Output:
 ![Screenshot 2023-04-06 092332](https://user-images.githubusercontent.com/117974950/230270012-169f0d52-9b67-45e8-be0b-c0e8e8d475b9.png)
